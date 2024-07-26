@@ -1,12 +1,7 @@
 ---
-title: "My awesome website"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
-    theme: cerulean
+title: "Holy cow!"
 ---
 
-# Intial Commit 
+### I have a webpage!
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+And I can put all kinds of stuff on it!
