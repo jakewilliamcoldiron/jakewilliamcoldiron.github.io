@@ -7,6 +7,6 @@ output:
     theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# Intial Commit 
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
