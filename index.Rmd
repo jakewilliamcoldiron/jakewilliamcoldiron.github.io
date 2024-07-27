@@ -2,28 +2,25 @@
 title: "Jake William Coldiron"
 ---
 
+<link rel="stylesheet" href="site_libs/academicons-1.9.4/css/academicons.min.css">
+
+
 # Notice
 
-Thank you for visiting! This website is still under construction with significant portions of the infrasture coming from [Jeff Goldsmith](https://jeffgoldsmith.com/) but all important external links (e.g., CV, ResearchGate, ORCiD, and LinkedIn) are working. The website will be completed by the end of August 2024, so come back then!  
+### Thank you for visiting! This website is still under construction with significant portions of the infrasture coming from [Jeff Goldsmith](https://jeffgoldsmith.com/) but all important external links (e.g., CV, ResearchGate, ORCiD, and LinkedIn) are working. The website will be completed by the end of August 2024, so come back then!  
 
 ## Introduction 
 
-Jake W. Coldiron is a rising young professional in global and public health. He completed a Bachelor of Science in Public Health (BSPH) with minors in Mathematics and Sociology at Georgia State University, as well as EMT Certification at the Grady EMS Academy. In addition to his education, Jake W. Coldiron worked at two positions within the Georgia State University School of Public Health. At his first position, he assisted the university's COVID response by creating physical and digital informational media and speaks to students about COVID, COVID safety, and vaccines. At his second position, he worked as a research assistant for an NIH-funded study conducting interviews, statistical analyses, and manuscript preparation. 
+Jake William Coldiron is a rising young professional in global and public health. He completed a Bachelor of Science in Public Health (BSPH) with minors in Mathematics and Sociology at Georgia State University, as well as EMT Certification at the Grady EMS Academy. In addition to his education, Jake W. Coldiron worked at two positions within the Georgia State University School of Public Health. At his first position, he assisted the university's COVID response by creating physical and digital informational media and speaks to students about COVID, COVID safety, and vaccines. At his second position, he worked as a research assistant for an NIH-funded study conducting interviews, statistical analyses, and manuscript preparation. 
 
 Finally, he continues to serve as a poll manager with a particular emphasis on helping English-limited or Spanish-only voters. His three main areas of interest are biostatistics, perinatal transmission of disease, and chronic infectious diseases ultimately aims to serve as both a researcher and clinician. In Jake's free time, he volunteers as a local scouting leader and trainer.
 
-Always happy to connect via LinkedIn or email!
-Email: jwc2177@cumc.columbia.edu
+<br><img src="images/jakewilliamcoldiron.github.io_images_headshot.png" alt="jake" style="width:65%; border:10px solid"><br>
 
 ## Con't
 
 
 
-<link rel="stylesheet" href="styles.css" type="text/css">
-<link rel="stylesheet" href="academicons/css/academicons.min.css"/>
-<link rel="apple-touch-icon" href="/images/JG_transparent.png" >
-
-<br><img src="images/jeff.jpg" alt="jeff" style="width:65%; border:10px solid"><br>
 
 Associate Dean for Data Science <br>
 Associate Professor of Biostatistics <br>
