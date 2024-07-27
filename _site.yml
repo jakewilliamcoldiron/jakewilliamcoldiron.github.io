@@ -1,14 +1,33 @@
-name: "Yay internet!"
+name: "Jake William Coldiron"
 output_dir: "."
 navbar:
   title: "Home"
+  left:
+    - text: "Research"
+      href: research.html
+    - text: "Papers"
+      href: papers.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Software"
+      href: software.html
   right:
-    - text: "About"
-      href: about.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<jwc2177@cumc.columbia.edu>
+    - icon: fa-paper-plane fa-lg
+      href: mailto:jwc2177@cumc.columbia.edu
+    - icon: fa-brands fa-orcid fa-lg
+      href: https://orcid.org/my-orcid?orcid=0009-0001-1757-4292
+    - icon: ai-researchgate ai-lg
+      href: ./reasources/20240727_jakewilliamcoldiron_cv.pdf
+    - icon: ai-cv ai-lg
+      href: ./reasources/20240727_jakewilliamcoldiron_cv.pdf
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/jakewilliamcoldiron/
 output:
   html_document:
     theme: flatly
+    include:
+      after_body: footer.html
+    css: styles.css
+
+
+

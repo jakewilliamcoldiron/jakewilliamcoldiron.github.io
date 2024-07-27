@@ -1,0 +1,34 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<link rel="stylesheet" href="academicons/css/academicons.min.css"/>
+
+<br>
+
+## Current courses
+
+Fall 2019: [Data Science I](http://p8105.com)  
+
+## Past courses
+
+Fall 2018: [Data Science I](http://p8105.com)  
+Fall 2017: [Data Science I](http://p8105.com)  
+Spring 2016: [Linear Regression Models](http://jeffgoldsmith.com/P8111/)  
+Spring 2015: Linear Regression Models  
+Summer 2015: Applied Regression II  
+Spring 2014: Linear Regression Models  
+Spring 2014: Categorical Data Analysis  
+Spring 2013: Linear Regression Models  
+Spring 2013: Categorical Data Analysis
+
+## Short courses
+
+2017: ["Functional Data Analysis for Wearables: Methods and Applications"](http://jeffgoldsmith.com/ICAMPAM/) (at the International Conference on Ambulatory Monitoring of Physical Activity)  
+2017: ["Variable Selection Methods in Functional Regression"](http://jeffgoldsmith.com/IWAFDA/) (at the International Workshop on Advances in Functional Data Analysis)  
+2014: "Functional Data Analysis: Techniques and Applications" (at ENAR)
+
+## Other materials
+
+2019: [Workshop on website development](http://jeffgoldsmith.com/ehs_workshop/index.html)  
+2018: Webinar: ["Data Science and Predictive Models in Public Health"]() and accompanying [reproducible lasso example](resources/lasso_example.zip) (webinar requires registration of free account)
