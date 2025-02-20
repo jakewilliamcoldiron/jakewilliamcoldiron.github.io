@@ -11,6 +11,8 @@ navbar:
       href: teaching.html
     - text: "Software"
       href: software.html
+    - text: "Photo Gallery"
+      href: photo_gallery.html      
   right:
     - icon: ai-cv ai-lg
       href: ./reasources/20240727_jakewilliamcoldiron_cv.pdf

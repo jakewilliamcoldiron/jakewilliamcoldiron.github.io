@@ -2,54 +2,51 @@
 title: "Jake William Coldiron"
 ---
 
+<link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.4/css/academicons.min.css">
 
+:::: {style="display: flex;"}
 
-# Notice
+::: {.column width="65%"}
 
-### Thank you for visiting! This website is still under construction with significant portions of the infrasture coming from [Jeff Goldsmith](https://jeffgoldsmith.com/) but all important external links (e.g., CV, ResearchGate, ORCiD, and LinkedIn) are working. The website will be completed by the end of August 2024, so come back then!  
+I am a biomedical researcher at Columbia University working in the field of statistical genetics. I received a B.S. in Chemistry and Molecular Biology from the University of Pittsburgh in 2021 and am currently working on my M.S. in Biostatistics at the Columbia University Mailman School of Public Health. 
 
-## Introduction 
+## About
+After I received my B.S. in 2021, I moved to Baltimore, MD and began two years of work at the [Center for Blood Oxygen Transport and Hemostasis](https://www.medschool.umaryland.edu/cboth/) (CBOTH). During this time, I worked on a number of projects related to red blood cell biochemistry, including understanding COVID-19 pathogenesis and developing artificial oxygen carriers. To further my knowledge of data analysis and the statistical aspects of biomedical research, I am working on an M.S. in Biostatistics at [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/departments/biostatistics).
 
-Jake William Coldiron is a rising young professional in global and public health. He completed a Bachelor of Science in Public Health (BSPH) with minors in Mathematics and Sociology at Georgia State University, as well as EMT Certification at the Grady EMS Academy. In addition to his education, Jake W. Coldiron worked at two positions within the Georgia State University School of Public Health. At his first position, he assisted the university's COVID response by creating physical and digital informational media and speaks to students about COVID, COVID safety, and vaccines. At his second position, he worked as a research assistant for an NIH-funded study conducting interviews, statistical analyses, and manuscript preparation. 
-
-Finally, he continues to serve as a poll manager with a particular emphasis on helping English-limited or Spanish-only voters. His three main areas of interest are biostatistics, perinatal transmission of disease, and chronic infectious diseases ultimately aims to serve as both a researcher and clinician. In Jake's free time, he volunteers as a local scouting leader and trainer.
-
-<br><img src="images/jakewilliamcoldiron.github.io_images_headshot.png" alt="jake" style="width:65%; border:10px solid"><br>
-
-## Con't
+Outside of the lab, I enjoy theatre and the performing arts. I was previously involved academically and professionally in technical theatre, and have worked on over 40 productions. Despite not being actively involved in theatre anymore, I still provide support and mentorship to a Maryland-based youth-run theatre company.
 
 
+## Research Interests
+I am interested in the study of drugs, biologics, and methods for improving outcomes in trauma settings. I am particularly interested in adaptive study designs to better evaluate the performance of therapeutics in the complex and dynamic hemorrhage environment. 
 
+With a background in molecular biology, I am also interested in the unique opportunities offered by large scale biological data to understand health outcomes. My current research focuses on methods for imputing proteomic and transcriptomic data to better power biobank-scale analyses.
 
-Associate Dean for Data Science <br>
-Associate Professor of Biostatistics <br>
-Columbia University Mailman School of Public Health
+## Science Communication
+Public health research should serve the public, yet recent public health crises have shown just how challenging effective communication can be. As part of my studies in biomedical and public health research, I am focusing on not only on communication to other researchers, but also communication [to students and the public](communication.html). I work to promote science communication and health literacy through my work with the Columbia Mailman Public Health Journalism club and the [New York Amsterdam News](https://amsterdamnews.com/news/tag/blacklight-fact-check/).
+:::
 
-#### Research
+::: {.column width="5%"}
+\
+<!-- empty column for spacing reasons -->
+:::
 
-For several years, I have worked to advance the state-of-the-art in functional data analysis by developing methods for understanding patterns in large, complex datasets in neuroscience, physical activity monitoring, and other areas. 
+::: {.column width="30%"}
+```{=html}
+<img src="images/headshot_2024.jpg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
 
-Working closely with clinicians and neuroscientists around the world, my collaborators and I have focused on improving the understanding skilled movements. This work involves reaching movements made by stroke patients: in these experiments, a patient's fingertip position is recorded hundreds of time per second for the duration of the reach. I have developed new statistical methods to understand the impact of stroke on movement quality, and applied these to large, longitudinal datasets. In parallel, I have proposed methods for wearable device research, especially focusing on accelerometers. These devices can produce minute-by-minute (or even finer) resolution observations of activity for hundreds of participants over several days, weeks, or months. The methods developed include approaches for regression with activity trajectories as outcomes; for interpretable dimension reduction; and for aligning major patterns (like wake from sleep, mid-day dips in activity, and sleep onset) across subjects. 
+<div style="border-radius: 25px;background: #33335590;padding: 10px;">
+<br/>
+<h4 style=
+word-break:break-all;"> Contact Information</h4>
+<p style="size:8px;word-break:break-all;">
+Jake William Coldiron
+<br/>
+Email: <a href="mailto:jakewcoldiron@gmail.com">jakewcoldiron@gmail.com</a></p>
+Phone: +1(202)878-9282
+</div>
+```
 
-#### Data science
+:::
 
-Data science is a newly-formed and, as yet, loosely-defined discipline that has nonetheless emerged as a critical component of successful research in biostatistics and public health. I work to incorporate data science techniques for transparency and reproducibility into biostatistical analyses. Research projects are accompanied by robust, publicly available software and analytical pipelines that ensure the reproducibility of the results. This approach is informed by my work in developing a graduate course in [data science](https://p8105.com).
-
-#### About
-
-I received a BS in mathematics from [Dickinson College](http://www.dickinson.edu) in 2007 and a PhD in Biostatistics from [Johns Hopkins University](http://www.jhsph.edu/departments/biostatistics/) in 2012. My dissertation was advised by [Ciprian Crainiceanu](http://www.biostat.jhsph.edu/~ccrainic/) and [Brian Caffo](https://sites.google.com/view/bcaffo/home), and focused on statistical methods for high-dimensional structured data. I joined Columbia as an assistant professor in 2012.
-
-In 2013, I founded (with [Todd Ogden](https://www.mailman.columbia.edu/people/our-faculty/to166) and [Phil Reiss](https://works.bepress.com/phil_reiss/)) the Functional Data Analysis Working Group ([FDAWG](https://www.mailman.columbia.edu/research/functional-data-analysis-working-group)) at Columbia Biostat. 
-
-<br>
-
-#### Contact Information
-
-Jeff Goldsmith  
-[Department of Biostatistics](http://www.mailman.columbia.edu/academic-departments/biostatistics)  
-[Columbia Mailman School of Public Health](http://www.mailman.columbia.edu/)  
-722 West 168th Street, Room 617  
-New York, New York 10032  
-
-Email: [jeff.goldsmith@columbia.edu](mailto:jeff.goldsmith@columbia.edu)  
+::::
