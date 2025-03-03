@@ -1,5 +1,6 @@
 ---
 title: "Jake William Coldiron"
+author: "Statistician | Researcher | Director"
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
@@ -9,23 +10,29 @@ title: "Jake William Coldiron"
 
 ::: {.column width="65%"}
 
-I am a Master of Science (MS) in Biostatistics student at Columbia University working in the field of statistical genetics. I received a B.S. in Chemistry and Molecular Biology from the University of Pittsburgh in 2021 and am currently working on my M.S. in Biostatistics at the Columbia University Mailman School of Public Health. 
+I am Jake William Coldiron, a statistician, researcher, and director specializing in the development and application of statistical methods to complex datasets. My focus lies in longitudinal data analysis, machine learning, and model validation to find hidden structures, enhance predictive accuracy, and support data-driven decision-making. Through a balance of directing ambitious studies and performing statistical analysis, I do my best to find the correct balance of theory and reality.
 
-# About
-After I received my B.S. in 2021, I moved to Baltimore, MD and began two years of work at the [Center for Blood Oxygen Transport and Hemostasis](https://www.medschool.umaryland.edu/cboth/) (CBOTH). During this time, I worked on a number of projects related to red blood cell biochemistry, including understanding COVID-19 pathogenesis and developing artificial oxygen carriers. To further my knowledge of data analysis and the statistical aspects of biomedical research, I am working on an M.S. in Biostatistics at [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/departments/biostatistics).
+I am currently pursuing a Master of Science in Biostatistics at the Columbia University Mailman School of Public Health. Prior to Columbia, I earned Bachelor of Science from Georgia State University, double minoring in Mathematics and Sociology. During these years, I led initiatives in computational methods, public health program evaluation, and statistical education and beyond into mentorship, academic service, and collaboration with industry in biostatistics.
 
-Outside of the lab, I enjoy theatre and the performing arts. I was previously involved academically and professionally in technical theatre, and have worked on over 40 productions. Despite not being actively involved in theatre anymore, I still provide support and mentorship to a Maryland-based youth-run theatre company.
+## Research
 
-## Research Interests
-I am interested in the study of drugs, biologics, and methods for improving outcomes in trauma settings. I am particularly interested in adaptive study designs to better evaluate the performance of therapeutics in the complex and dynamic hemorrhage environment. 
+My research interests span multiple domains, including causal inference, survival analysis, Bayesian methods, and computational biostatistics. I am particularly interested in using machine learning and predictive modeling and regression to enhance decision-making in public health and medicine. 
 
-With a background in molecular biology, I am also interested in the unique opportunities offered by large scale biological data to understand health outcomes. My current research focuses on methods for imputing proteomic and transcriptomic data to better power biobank-scale analyses.
+Currently, I am leading research efforts at Voices of Atrial Fibrillation Patients (VoAFP), where I oversee study design, data analysis, and methodological development to improve patient-centered outcomes in atrial fibrillation care. My work also involves integrating patient-reported data with structured clinical datasets to enhance our understanding of disease progression and treatment efficacy.
 
-## Science Communication
-Public health research should serve the public, yet recent public health crises have shown just how challenging effective communication can be. As part of my studies in biomedical and public health research, I am focusing on not only on communication to other researchers, but also communication [to students and the public](communication.html). I work to promote science communication and health literacy through my work with the Columbia Mailman Public Health Journalism club and the [New York Amsterdam News](https://amsterdamnews.com/news/tag/blacklight-fact-check/).
+Additionally, my research contributions include published manuscripts on maternal and child health, contraceptive access, and infectious disease epidemiology. I continue to engage in collaborative projects that utilize innovative statistical methods to address pressing public health challenges.
 
-## Beyond Research
-Public health research should serve the public, yet recent public health crises have shown just how challenging effective communication can be. As part of my studies in biomedical and public health research, I am focusing on not only on communication to other researchers, but also communication [to students and the public](communication.html). I work to promote science communication and health literacy through my work with the Columbia Mailman Public Health Journalism club and the [New York Amsterdam News](https://amsterdamnews.com/news/tag/blacklight-fact-check/).
+## Work
+
+Throughout my career, I have balanced academic research with professional roles in leadership, healthcare analytics, and statistical consulting. As the Research Director at VoAFP, I develop strategic plans, oversee data partnerships, and implement advanced statistical models to drive impactful research. Prior to this, I worked as a research assistant at Georgia State University and contributed to health policy research at the Georgia Health Policy Center. My experience also includes hands-on roles in clinical operations, legal compliance, and regulatory adherence.
+
+In addition to my research and professional work, I actively contribute to the academic community through invited talks, university workshops, and mentorship programs. I have delivered presentations at major conferences, including the American Public Health Association (APHA) Annual Conference, and have provided training on biostatistical methods, GIS applications, and computational techniques.
+
+Through a commitment to rigorous statistical methodology and interdisciplinary collaboration, I strive to advance the role of biostatistics in shaping evidence-based policies, improving healthcare delivery, and driving innovation in research.
+
+## Out of Office
+
+Beyond research, I spend my time outdoors and playing sports. I am an avid backpacker eager to explore new trails. I spend most of my free time playing badminton, but also find time for  tennis, ping pong, and soccer. When I'm not on the court or in the gym, I am an avid backpacker eager to explore new trails. These activities not only keep me active but also provide a great way to unwind, challenge myself, and connect with others who share similar interests.
 
 :::
 
