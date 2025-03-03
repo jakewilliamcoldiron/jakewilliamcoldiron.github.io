@@ -9,13 +9,12 @@ title: "Jake William Coldiron"
 
 ::: {.column width="65%"}
 
-I am a biomedical researcher at Columbia University working in the field of statistical genetics. I received a B.S. in Chemistry and Molecular Biology from the University of Pittsburgh in 2021 and am currently working on my M.S. in Biostatistics at the Columbia University Mailman School of Public Health. 
+I am a Master of Science (MS) in Biostatistics student at Columbia University working in the field of statistical genetics. I received a B.S. in Chemistry and Molecular Biology from the University of Pittsburgh in 2021 and am currently working on my M.S. in Biostatistics at the Columbia University Mailman School of Public Health. 
 
-## About
+# About
 After I received my B.S. in 2021, I moved to Baltimore, MD and began two years of work at the [Center for Blood Oxygen Transport and Hemostasis](https://www.medschool.umaryland.edu/cboth/) (CBOTH). During this time, I worked on a number of projects related to red blood cell biochemistry, including understanding COVID-19 pathogenesis and developing artificial oxygen carriers. To further my knowledge of data analysis and the statistical aspects of biomedical research, I am working on an M.S. in Biostatistics at [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/departments/biostatistics).
 
 Outside of the lab, I enjoy theatre and the performing arts. I was previously involved academically and professionally in technical theatre, and have worked on over 40 productions. Despite not being actively involved in theatre anymore, I still provide support and mentorship to a Maryland-based youth-run theatre company.
-
 
 ## Research Interests
 I am interested in the study of drugs, biologics, and methods for improving outcomes in trauma settings. I am particularly interested in adaptive study designs to better evaluate the performance of therapeutics in the complex and dynamic hemorrhage environment. 
@@ -24,6 +23,10 @@ With a background in molecular biology, I am also interested in the unique oppor
 
 ## Science Communication
 Public health research should serve the public, yet recent public health crises have shown just how challenging effective communication can be. As part of my studies in biomedical and public health research, I am focusing on not only on communication to other researchers, but also communication [to students and the public](communication.html). I work to promote science communication and health literacy through my work with the Columbia Mailman Public Health Journalism club and the [New York Amsterdam News](https://amsterdamnews.com/news/tag/blacklight-fact-check/).
+
+## Beyond Research
+Public health research should serve the public, yet recent public health crises have shown just how challenging effective communication can be. As part of my studies in biomedical and public health research, I am focusing on not only on communication to other researchers, but also communication [to students and the public](communication.html). I work to promote science communication and health literacy through my work with the Columbia Mailman Public Health Journalism club and the [New York Amsterdam News](https://amsterdamnews.com/news/tag/blacklight-fact-check/).
+
 :::
 
 ::: {.column width="5%"}
@@ -33,7 +36,7 @@ Public health research should serve the public, yet recent public health crises 
 
 ::: {.column width="30%"}
 ```{=html}
-<img src="images/headshot_2024.jpg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+<img src="images/jakewilliamcoldiron.github.io_images_headshot_02.jpg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
 
 <div style="border-radius: 25px;background: #33335590;padding: 10px;">
 <br/>
@@ -42,8 +45,7 @@ word-break:break-all;"> Contact Information</h4>
 <p style="size:8px;word-break:break-all;">
 Jake William Coldiron
 <br/>
-Email: <a href="mailto:jakewcoldiron@gmail.com">jakewcoldiron@gmail.com</a></p>
-Phone: +1(202)878-9282
+Email: <a href="mailto:jwc2177@cumc.columbia.edu">jwc2177@cumc.columbia.edu</a></p>
 </div>
 ```
 
