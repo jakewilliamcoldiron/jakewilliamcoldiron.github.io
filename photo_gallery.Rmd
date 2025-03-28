@@ -1,4 +1,152 @@
+---
+title: "Photo Gallery"
+output: html_document
+---
+
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.4/css/academicons.min.css">
 
-Hello! 
+<style>
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.photo-item {
+  width: 200px;
+  text-align: center;
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.photo-item p {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #555;
+}
+</style>
+
+```{=html}
+
+<div class="photo-gallery">
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/apha.jpeg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p>Presenting research at APHA.</p>
+    </div>
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/baldy.jpg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p>Trekking with a feather in my cap!</p>
+    </div>
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/emphnet.jpg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> Ending ceremony with EMPHNET .</p>
+    </div>
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/frontiers.png", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> Speaking at Bill and Melinda Gate's Frontiers Set .</p>
+    </div>
+    
+</div>  
+```
+
+```{=html}
+
+<div class="photo-gallery">
+
+  <div class="photo-item">
+    <img src="images/photo_gallery/ghs.jpg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p>Attending the Global Health Summit with Dr. Sarah McCool.</p>
+    </div>  
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/greatestminds.jpg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p>Presenting to the Greatest Minds Society.</p>
+    </div>
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/gsu.jpeg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> Meeting with the GSU Honors College </p>
+    </div>
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/handsomedan.jpeg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> Meeting Yale's Mascot, the Bulldog "Handsome Dan" </p>
+    </div>
+    
+</div>  
+```
+
+```{=html}
+
+<div class="photo-gallery">
+
+  <div class="photo-item">
+    <img src="images/photo_gallery/indiansprings.jpeg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p>Working with Scouting Leaders.</p>
+    </div>  
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/meta.png", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> Public speaking about Public Health </p>
+    </div>
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/rpc_1.JPG", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> Cleaning Riverside Park with the Riverside Park Conservancy. </p>
+    </div>
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/tennis.jpeg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> Tennis under the auspices of the George Washington Bridge </p>
+    </div>
+    
+</div>  
+```
+
+```{=html}
+
+<div class="photo-gallery">
+
+  <div class="photo-item">
+    <img src="images/photo_gallery/troy.JPG", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> A mathematical disucssion with Dr. Mark Grinshpon. </p>
+    </div>  
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/troy_pres.JPG", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> Presenting research at Troy University. </p>
+    </div>
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/kennestone.jpeg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> Working at the hospital. </p>
+    </div>
+    
+    <div class="photo-item">
+    <img src="images/photo_gallery/eis.jpeg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+     <p> Attending the EIS Conference. </p>
+    </div>
+    
+</div>  
+```
+
+```{=html}
+
+<div style="text-align: center; margin-top: 40px;">
+  <video width="640" height="360" controls>
+    <source src="images/photo_gallery/badminton.mp4" type="video/mp4">
+  </video>
+  <p> Playing Badminton with the Empire State Badminton Club at the Brooklyn Badminton Center 🏸</p>  
+```

@@ -5,15 +5,8 @@ output:
     toc_float: true
 ---
 
-
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.4/css/academicons.min.css">
-
-<br>
-<font size="5">[Google Scholar Page](https://scholar.google.com/citations?user=3wvmkE0AAAAJ)</font> 
-<br>
-
-In the following, <sup>&#8224;</sup> denotes equal contribution and <sup>&#8225;</sup> indicates a student under my supervision.
 
 ## 2021
 
