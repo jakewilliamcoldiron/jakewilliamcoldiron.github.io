@@ -155,14 +155,11 @@ output: html_document
 
 <center>
 
-<h2><b> Contact </b></h2>
-
-Here is my <a href="resume.html">resume</a> in case you are the big boss or HR :)
-
 <h2>
-<a class="fas fa-envelope" href="wu459201296@gmail.com"> </a>
-<a class="fab fa-github" href="http://github.com/valuntiny/"> </a>
-<a class="fab fa-linkedin" href="https://www.linkedin.com/in/guojing-wu-213795146/"> </a></h2>
+<a class="fab fa-linkedin" href="https://www.linkedin.com/in/jakewilliamcoldiron/"> </a>
+<a class="fab fa-github" href="http://github.com/jakewilliamcoldiron/"> </a>
+<a class="fas fa-envelope" href="jwc2177@caa.columbia.edu"> </a>
+</h2>
 
 </center>
 

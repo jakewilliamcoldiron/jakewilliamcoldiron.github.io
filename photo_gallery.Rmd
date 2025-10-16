@@ -150,3 +150,17 @@ output: html_document
   </video>
   <p> Playing Badminton with the Empire State Badminton Club at the Brooklyn Badminton Center 🏸</p>  
 ```
+
+</br>
+</br>
+</br>
+
+<center>
+
+<h2>
+<a class="fab fa-linkedin" href="https://www.linkedin.com/in/jakewilliamcoldiron/"> </a>
+<a class="fab fa-github" href="http://github.com/jakewilliamcoldiron/"> </a>
+<a class="fas fa-envelope" href="jwc2177@caa.columbia.edu"> </a>
+</h2>
+
+</center>

@@ -20,7 +20,7 @@ navbar:
       href: http://github.com/jakewilliamcoldiron/
     - icon: ai-researchgate ai-lg
       href: https://www.researchgate.net/profile/Jake-Coldiron
-    - icon: fa-paper-plane fa-lg
+    - icon: fa-envelope fa-lg
       href: mailto:jwc2177@caa.columbia.edu
 
 output:

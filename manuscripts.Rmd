@@ -634,3 +634,17 @@ Dynamical Properties of the Derivative of the Weierstrass Elliptic Function.
 [[Link](http://msp.org/involve/2009/2-3/p02.xhtml) |
 [pdf](resources/Weierstrass.pdf)]
 
+</br>
+</br>
+</br>
+
+<center>
+
+<h2>
+<a class="fab fa-linkedin" href="https://www.linkedin.com/in/jakewilliamcoldiron/"> </a>
+<a class="fab fa-github" href="http://github.com/jakewilliamcoldiron/"> </a>
+<a class="fas fa-envelope" href="jwc2177@caa.columbia.edu"> </a>
+</h2>
+
+</center>
+

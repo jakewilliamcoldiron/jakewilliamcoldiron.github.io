@@ -10,6 +10,9 @@ output:
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.4/css/academicons.min.css">
 
+
+My dynamic resume bridges the gap between my concise résumé and my detailed CV. It expands on key elements in a clear, readable format while keeping the focus on recent, relevant work.
+
 ---
 
 # Professional Summary
@@ -177,4 +180,18 @@ Aug 2019 – Dec 2022
 </div>
 
 ```
+
+</br>
+</br>
+</br>
+
+<center>
+
+<h2>
+<a class="fab fa-linkedin" href="https://www.linkedin.com/in/jakewilliamcoldiron/"> </a>
+<a class="fab fa-github" href="http://github.com/jakewilliamcoldiron/"> </a>
+<a class="fas fa-envelope" href="jwc2177@caa.columbia.edu"> </a>
+</h2>
+
+</center>
 
