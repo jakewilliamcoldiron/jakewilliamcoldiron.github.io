@@ -1,1 +1,0 @@
-# jakewilliamcoldiron.github.io

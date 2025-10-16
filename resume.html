@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Dynamic Resume</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="resume.html">Dynamic Resume</a>
+</li>
+<li>
+  <a href="sample_work.html">Sample Work</a>
+</li>
+<li>
+  <a href="projects_and_research.html">Projects and Research</a>
+</li>
+<li>
+  <a href="manuscripts.html">Manuscripts</a>
+</li>
+<li>
+  <a href="photo_gallery.html">Photo Gallery</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/jakewilliamcoldiron/">
+    <span class="fa fa-brands fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/jakewilliamcoldiron/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Jake-Coldiron">
+    <span class="ai ai-researchgate ai-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:jwc2177@caa.columbia.edu">
+    <span class="fa fa-paper-plane fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore"><strong>Dynamic Resume</strong></h1>
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="site_libs/academicons-1.9.4/css/academicons.min.css"></p>
+<hr />
+<div id="professional-summary" class="section level1">
+<h1>Professional Summary</h1>
+<p>Statistician, data scientist, and quantitative analyst with expertise
+in predictive analytics, longitudinal data, and machine learning.
+Proficient in statistical modeling, complex analysis, and real-world
+data with hands-on experience across data ingestion, transformation,
+modeling, and reporting using R, Python, SAS, Julia, SQL, and more.
+Experienced in data engineering practices including ETL pipelines,
+schema design, scalable workflows, and data optimization. Familiar with
+foundational AI and ML workflows, including data preprocessing, feature
+engineering, and model evaluation. Applied tools in supervised learning
+tasks, with a focus on interpretability, cross-validation, and
+reproducible results in real-world health data contexts. Capable of
+translating data into actionable insights across clinical, business, and
+financial domains.</p>
+<p>Jake Coldiron is a statistician and quantitative analyst specializing
+in predictive modeling, longitudinal analysis, and real-world evidence
+(RWE). Skilled in R, Python, SAS, Julia, and SQL, he transforms noisy
+data into actionable insights. His work spans supervised learning,
+interpretability, and decentralized, privacy-preserving ML. He
+translates complex results and advances rigorous, reproducible analytics
+for clinical, business, and financial impact.</p>
+<hr />
+</div>
+<div id="skills" class="section level1">
+<h1>Skills</h1>
+<div id="statistics" class="section level2">
+<h2><em>Statistics</em></h2>
+<p>Statistical analysis; descriptive and inferential statistics;
+Generalized Estimating Equations (GEE); Generalized Linear Models (GLM);
+mixed-effects models; multilevel modeling; linear/logistic/Poisson
+regression; survival analysis; Cox proportional hazards; longitudinal
+analysis; growth-curve modeling; repeated-measures ANOVA; ANCOVA;
+MANOVA; causal inference; propensity score methods; inverse probability
+weighting; multiple imputation; maximum likelihood; time-to-event
+modeling; Kaplan–Meier; model diagnostics/validation; goodness-of-fit
+tests; cross-validation; hypothesis testing; confidence intervals;
+effect-size estimation.</p>
+</div>
+<div id="programming" class="section level2">
+<h2><em>Programming</em></h2>
+<p>R, SAS, Python, SQL, Julia, LaTeX, Git, REDCap, NVivo, Covidence,
+EndNote, Zotero, R Markdown, Shiny.</p>
+</div>
+<div id="data" class="section level2">
+<h2><em>Data</em></h2>
+<p>Data wrangling/cleaning; ETL pipelines;
+harmonization/standardization; reproducible research; federated learning
+implementation; version control (Git); multi-source integration;
+database management; secure data handling and governance.</p>
+<hr />
+</div>
+</div>
+<div id="education" class="section level1">
+<h1>Education</h1>
+<ul>
+<li><p><strong>Master of Science (MS) in Statistics and
+Biostatistics</strong>, Columbia University — New York, NY, USA<br />
+<em>Aug 2023 – May 2025</em></p></li>
+<li><p><strong>Bachelor of Science (BS) in Public Health
+(Honors)</strong>, Georgia State University — Atlanta, GA, USA<br />
+<em>Aug 2018 – Dec 2022</em></p></li>
+</ul>
+<hr />
+</div>
+<div id="work-experience" class="section level1">
+<h1>Work Experience</h1>
+<div id="statistician-voices-of-atrial-fibrillation-patients-voafp"
+class="section level2">
+<h2>Statistician, Voices of Atrial Fibrillation Patients (VoAFP)</h2>
+<p><em>New York, NY, USA — Dec 2023 – Aug 2025</em></p>
+<ul>
+<li>Led end-to-end data science workflows for clinical and real-world
+data, including ingestion, cleaning, transformation, and statistical
+modeling of structured EHRs, imaging, lab results, and wearable
+data.</li>
+<li>Applied advanced statistical and ML methods (survival analysis,
+mixed-effects models, propensity scores, latent class modeling,
+time-to-event analysis) in R, Python, and SQL to generate insights,
+stratify risk, and model treatment outcomes.</li>
+<li>Developed reproducible multi-institutional data workflows on secure
+platforms; oversaw research execution, regulatory reporting, and
+clinical dashboard development emphasizing statistical rigor and
+actionable insights.</li>
+<li>Integrated predictive modeling into stakeholder decision frameworks
+to ensure production-ready outputs aligned with clinical utility.</li>
+</ul>
+</div>
+<div id="clinical-data-scientist-dataunite" class="section level2">
+<h2>Clinical Data Scientist, DataUnite</h2>
+<p><em>San Francisco, CA, USA — Jul 2024 – Jan 2025</em></p>
+<ul>
+<li>Conducted GLMs, mixed-effects, and survival/time-to-event analyses
+for RCT and RWD at scale (EHRs, imaging, pathology).</li>
+<li>Engineered Python/SQL ETL pipelines; built predictive models;
+evaluated with cross-validation, AUC-ROC, and calibration metrics.</li>
+<li>Contributed to federated learning/virtual pooling; implemented drift
+detection and model governance; communicated results via R Markdown,
+white papers, and dashboards.</li>
+<li>Designed interpretable feature sets for decentralized modeling
+environments, balancing transparency and performance.</li>
+</ul>
+<div
+id="poll-manager-operations-analyst-equivalent-douglas-county-board-of-elections"
+class="section level3">
+<h3>Poll Manager (Operations Analyst Equivalent), Douglas County Board
+of Elections</h3>
+<p><em>Douglasville, GA, USA — Sep 2020 – Aug 2023</em></p>
+<ul>
+<li>Built and led high-performing teams through structured recruitment,
+training, and mentorship; emphasized accountability and operational
+excellence.</li>
+<li>Implemented project management strategies to streamline operations;
+monitored KPIs; resolved on-site technical/personnel issues; coordinated
+with judges, election officials, and law enforcement.</li>
+<li>Managed documentation, troubleshooting, and cross-team coordination
+to ensure scalable workflows.</li>
+<li>Developed data-tracking templates and performance logs to guide
+iterative process improvement.</li>
+</ul>
+</div>
+</div>
+<div id="researcher-georgia-health-policy-center"
+class="section level2">
+<h2>Researcher, Georgia Health Policy Center</h2>
+<p><em>Atlanta, GA, USA — Feb 2020 – Jan 2021</em></p>
+<ul>
+<li>Led quantitative analyses using R and SAS to evaluate public health
+interventions with administrative and registry data.</li>
+<li>Built/maintained data pipelines integrating policy archives,
+registries, and interview data for mixed-methods modeling and
+reproducible reporting.</li>
+<li>Executed end-to-end analytic workflows and translated statistical
+outputs into stakeholder reports, briefs, and presentations.</li>
+<li>Automated R scripts for cleaning and reporting to improve turnaround
+and reproducibility.</li>
+</ul>
+</div>
+<div id="research-assistant-georgia-state-university"
+class="section level2">
+<h2>Research Assistant, Georgia State University</h2>
+<p><em>Atlanta, GA, USA</em> Aug 2019 – Dec 2022</p>
+<ul>
+<li>Ran advanced analyses (MANOVA, logistic regression, social network
+analysis) across longitudinal datasets using R, SAS, and UCINET.</li>
+<li>Led data cleaning, transformation, and EDA for mixed-methods studies
+on mental health and justice-involved populations.</li>
+<li>Integrated quantitative/qualitative data; contributed to grants,
+manuscripts, and presentations grounded in rigorous methods.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="publications-and-manuscripts" class="section level1">
+<h1>Publications and Manuscripts</h1>
+<ul>
+<li>Coldiron, J. W. <em>et al.</em> (2022). Individual and
+Community-Level Factors Related to Contraceptive Access, Family
+Planning, and Reproductive Health Challenges Among Women in Kumasi,
+Ghana: A Field Study. <em>IJTMRPH</em>. doi: <a
+href="https://doi.org/10.21106/ijtmrph.393">10.21106/ijtmrph.393</a></li>
+<li>Coldiron, J. W. <em>et al.</em> (2021). Genital <em>Chlamydia
+trachomatis</em> Infection: Prevalence, Risk Factors and Adverse
+Pregnancy and Birth Outcomes in Children and Women in Sub-Saharan
+Africa. <em>IJMCHA</em>. doi: <a
+href="https://doi.org/10.21106/ijma.523">10.21106/ijma.523</a></li>
+</ul>
+<hr />
+</div>
+<div id="conferences-and-lectures" class="section level1">
+<h1>Conferences and Lectures</h1>
+<ul>
+<li>Coldiron, J. W. (2025, May 2). <em>Building and Validating a
+Federated Learning Algorithm with Virtual Pooling for Rare Disease
+Research</em> [Conference presentation]. Columbia University
+Biostatistics Symposium, New York, NY.</li>
+<li>Coldiron, J. W. (2023, Feb 16). <em>Genital Chlamydia trachomatis
+Infection</em> [Conference presentation]. Georgia State University
+Public Health Conference, Atlanta, GA.</li>
+<li>Coldiron, J. W. (2022, Nov 8). <em>Understanding Department of
+Juvenile Justice Stakeholders’ Attitudes</em> [Conference presentation].
+APHA Annual Conference &amp; Expo, Boston, MA.</li>
+<li>Coldiron, J. W. (2022, Apr 9). <em>Quantitative Analysis of Women’s
+Health Trends in Ghana</em> [Conference presentation]. Troy MathFest,
+Troy, AL.</li>
+<li>Coldiron, J. W. (2024, Apr 26). <em>Geographical Information
+Systems</em> [Invited talk]. Columbia University, New York, NY,
+USA.</li>
+<li>Coldiron, J. W. (2022, Feb 5). <em>From Panic to Published</em>
+[Invited talk]. Georgia State University, Atlanta, GA, USA.</li>
+<li>Coldiron, J. W. (2021, Jun 10). <em>Lessons Learned from Leveraging
+Peer-to-Peer Networks in Universities to Fight the Pandemic</em>
+[Invited talk]. Frontier Set, Seattle, WA, USA.</li>
+</ul>
+<hr />
+</div>
+<div id="licenses-and-exams" class="section level1">
+<h1>Licenses and Exams</h1>
+<ul>
+<li>Securities Industry Essentials (SIE) Exam, Financial Industry
+Regulatory Authority (FINRA) — <em>Expected Sep 2025</em></li>
+</ul>
+<hr />
+</div>
+<div id="certifications" class="section level1">
+<h1>Certifications</h1>
+<ul>
+<li>Advanced Cardiovascular Life Support (ACLS), American Heart
+Association — <em>Issued Sep 2022</em> — Credential ID:
+225408189332<br />
+</li>
+<li>Basic Life Support for Healthcare Providers (BLS), American Heart
+Association — <em>Issued Jun 2022</em> — Credential ID:
+225415630202<br />
+</li>
+<li>Human Subjects Research, CITI — <em>Issued Nov 2022</em> —
+Credential ID: 50411525<br />
+</li>
+<li>Social and Behavioral Research, CITI — <em>Issued Mar 2020</em> —
+Credential ID: 33581061<br />
+</li>
+<li>Community Engaged Research, CITI — <em>Issued Mar 2020</em> —
+Credential ID: 33581062<br />
+</li>
+<li>Responsible Conduct of Research, CITI — <em>Issued Mar 2020</em> —
+Credential ID: 33581057</li>
+</ul>
+<hr />
+</div>
+<div id="leadership" class="section level1">
+<h1>Leadership</h1>
+<ul>
+<li><strong>Academic:</strong> Biostatistics Department Liaison;
+Academic Affairs Council; Council on Education for Public Health; Dean
+Search Committee<br />
+</li>
+<li><strong>Professional:</strong> American Statistical Association;
+American Public Health Association; Council of State and Territorial
+Epidemiologists<br />
+</li>
+<li><strong>Civic:</strong> Riverside Park Conservancy; Billion Oyster
+Project; Fathers Matter ATL; Boy Scouts of America</li>
+</ul>
+<hr />
+</div>
+<div id="pdf-download" class="section level1">
+<h1>PDF Download</h1>
+<style>
+  .pdf-card { margin-bottom: 1.25rem; }
+  .pdf-frame { width: 100%; height: 520px; border: 1px solid #e5e5e5; border-radius: 8px; }
+  @media (max-width: 767px) { .pdf-frame { height: 420px; } }
+</style>
+
+<div class="row">
+
+  <div class="col-sm-6">
+    <div class="pdf-card">
+      <h3>Resume</h3>
+      <p>My resume focuses on my statisticial and quantitative work.</p>
+
+      <object class="pdf-frame"
+              data="./resources/20250812_coldiron_resume.pdf#view=FitH"
+              type="application/pdf">
+        <!-- Fallback for browsers that block inline PDF -->
+        <p>Your browser can’t display PDFs inline. 
+           <a href="files/left.pdf">Download the PDF</a>.</p>
+      </object>
+      
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="pdf-card">
+      <h3>Curriculum Vitae</h3>
+      <p>My CV covers my entire career in detail.</p>
+
+      <object class="pdf-frame"
+              data="./resources/20250225_cv_coldiron.pdf#view=FitH"
+              type="application/pdf">
+        <!-- Fallback for browsers that block inline PDF -->
+        <p>Your browser can’t display PDFs inline. 
+           <a href="files/right.pdf">Download the PDF</a>.</p>
+      </object>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; text-align: center; font: 12.0px Times; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">Copyright © 2024,<span class="Apple-converted-space">  </span>Jake William Coldiron</span></p>
+</body>
+</html>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

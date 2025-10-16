@@ -1,12 +1,10 @@
 ---
-title: "Sample Work"
+title: "**Sample Work**"
 output: html_document
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.4/css/academicons.min.css">
-
-<br>
 
 <center>
 <h2><b> Highlight Projects </b></h2> 

@@ -1,0 +1,179 @@
+---
+title: "**Dynamic Resume**"
+
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="site_libs/academicons-1.9.4/css/academicons.min.css">
+
+---
+
+# Professional Summary
+
+Statistician, data scientist, and quantitative analyst with expertise in predictive analytics, longitudinal data, and machine learning. Proficient in statistical modeling, complex analysis, and real-world data with hands-on experience across data ingestion, transformation, modeling, and reporting using R, Python, SAS, Julia, SQL, and more. Experienced in data engineering practices including ETL pipelines, schema design, scalable workflows, and data optimization. Familiar with foundational AI and ML workflows, including data preprocessing, feature engineering, and model evaluation. Applied tools in supervised learning tasks, with a focus on interpretability, cross-validation, and reproducible results in real-world health data contexts. Capable of translating data into actionable insights across clinical, business, and financial domains.
+
+Jake Coldiron is a statistician and quantitative analyst specializing in predictive modeling, longitudinal analysis, and real-world evidence (RWE). Skilled in R, Python, SAS, Julia, and SQL, he transforms noisy data into actionable insights. His work spans supervised learning, interpretability, and decentralized, privacy-preserving ML. He translates complex results and advances rigorous, reproducible analytics for clinical, business, and financial impact.
+
+---
+
+# Skills
+
+## _Statistics_
+Statistical analysis; descriptive and inferential statistics; Generalized Estimating Equations (GEE); Generalized Linear Models (GLM); mixed-effects models; multilevel modeling; linear/logistic/Poisson regression; survival analysis; Cox proportional hazards; longitudinal analysis; growth-curve modeling; repeated-measures ANOVA; ANCOVA; MANOVA; causal inference; propensity score methods; inverse probability weighting; multiple imputation; maximum likelihood; time-to-event modeling; Kaplan–Meier; model diagnostics/validation; goodness-of-fit tests; cross-validation; hypothesis testing; confidence intervals; effect-size estimation.
+
+## _Programming_
+R, SAS, Python, SQL, Julia, LaTeX, Git, REDCap, NVivo, Covidence, EndNote, Zotero, R Markdown, Shiny.
+
+## _Data_
+Data wrangling/cleaning; ETL pipelines; harmonization/standardization; reproducible research; federated learning implementation; version control (Git); multi-source integration; database management; secure data handling and governance.
+
+---
+
+# Education
+
+- **Master of Science (MS) in Statistics and Biostatistics**, Columbia University — New York, NY, USA  
+  *Aug 2023 – May 2025*
+
+- **Bachelor of Science (BS) in Public Health (Honors)**, Georgia State University — Atlanta, GA, USA  
+  *Aug 2018 – Dec 2022*
+
+---
+
+# Work Experience
+
+## Statistician, Voices of Atrial Fibrillation Patients (VoAFP)
+*New York, NY, USA — Dec 2023 – Aug 2025*
+
+- Led end-to-end data science workflows for clinical and real-world data, including ingestion, cleaning, transformation, and statistical modeling of structured EHRs, imaging, lab results, and wearable data.
+- Applied advanced statistical and ML methods (survival analysis, mixed-effects models, propensity scores, latent class modeling, time-to-event analysis) in R, Python, and SQL to generate insights, stratify risk, and model treatment outcomes.
+- Developed reproducible multi-institutional data workflows on secure platforms; oversaw research execution, regulatory reporting, and clinical dashboard development emphasizing statistical rigor and actionable insights.
+- Integrated predictive modeling into stakeholder decision frameworks to ensure production-ready outputs aligned with clinical utility.
+
+## Clinical Data Scientist, DataUnite
+*San Francisco, CA, USA — Jul 2024 – Jan 2025*
+
+- Conducted GLMs, mixed-effects, and survival/time-to-event analyses for RCT and RWD at scale (EHRs, imaging, pathology).
+- Engineered Python/SQL ETL pipelines; built predictive models; evaluated with cross-validation, AUC-ROC, and calibration metrics.
+- Contributed to federated learning/virtual pooling; implemented drift detection and model governance; communicated results via R Markdown, white papers, and dashboards.
+- Designed interpretable feature sets for decentralized modeling environments, balancing transparency and performance.
+
+### Poll Manager (Operations Analyst Equivalent), Douglas County Board of Elections
+*Douglasville, GA, USA — Sep 2020 – Aug 2023*
+
+- Built and led high-performing teams through structured recruitment, training, and mentorship; emphasized accountability and operational excellence.
+- Implemented project management strategies to streamline operations; monitored KPIs; resolved on-site technical/personnel issues; coordinated with judges, election officials, and law enforcement.
+- Managed documentation, troubleshooting, and cross-team coordination to ensure scalable workflows.
+- Developed data-tracking templates and performance logs to guide iterative process improvement.
+
+## Researcher, Georgia Health Policy Center
+*Atlanta, GA, USA — Feb 2020 – Jan 2021*
+
+- Led quantitative analyses using R and SAS to evaluate public health interventions with administrative and registry data.
+- Built/maintained data pipelines integrating policy archives, registries, and interview data for mixed-methods modeling and reproducible reporting.
+- Executed end-to-end analytic workflows and translated statistical outputs into stakeholder reports, briefs, and presentations.
+- Automated R scripts for cleaning and reporting to improve turnaround and reproducibility.
+
+## Research Assistant, Georgia State University
+*Atlanta, GA, USA* 
+Aug 2019 – Dec 2022
+
+- Ran advanced analyses (MANOVA, logistic regression, social network analysis) across longitudinal datasets using R, SAS, and UCINET.
+- Led data cleaning, transformation, and EDA for mixed-methods studies on mental health and justice-involved populations.
+- Integrated quantitative/qualitative data; contributed to grants, manuscripts, and presentations grounded in rigorous methods.
+
+---
+
+# Publications and Manuscripts
+
+- Coldiron, J. W. *et al.* (2022). Individual and Community-Level Factors Related to Contraceptive Access, Family Planning, and Reproductive Health Challenges Among Women in Kumasi, Ghana: A Field Study. *IJTMRPH*. doi: [10.21106/ijtmrph.393](https://doi.org/10.21106/ijtmrph.393)
+- Coldiron, J. W. *et al.* (2021). Genital *Chlamydia trachomatis* Infection: Prevalence, Risk Factors and Adverse Pregnancy and Birth Outcomes in Children and Women in Sub-Saharan Africa. *IJMCHA*. doi: [10.21106/ijma.523](https://doi.org/10.21106/ijma.523)
+
+---
+
+# Conferences and Lectures
+
+- Coldiron, J. W. (2025, May 2). *Building and Validating a Federated Learning Algorithm with Virtual Pooling for Rare Disease Research* [Conference presentation]. Columbia University Biostatistics Symposium, New York, NY.
+- Coldiron, J. W. (2023, Feb 16). *Genital Chlamydia trachomatis Infection* [Conference presentation]. Georgia State University Public Health Conference, Atlanta, GA.
+- Coldiron, J. W. (2022, Nov 8). *Understanding Department of Juvenile Justice Stakeholders’ Attitudes* [Conference presentation]. APHA Annual Conference & Expo, Boston, MA.
+- Coldiron, J. W. (2022, Apr 9). *Quantitative Analysis of Women’s Health Trends in Ghana* [Conference presentation]. Troy MathFest, Troy, AL.
+- Coldiron, J. W. (2024, Apr 26). *Geographical Information Systems* [Invited talk]. Columbia University, New York, NY, USA.
+- Coldiron, J. W. (2022, Feb 5). *From Panic to Published* [Invited talk]. Georgia State University, Atlanta, GA, USA.
+- Coldiron, J. W. (2021, Jun 10). *Lessons Learned from Leveraging Peer-to-Peer Networks in Universities to Fight the Pandemic* [Invited talk]. Frontier Set, Seattle, WA, USA.
+
+---
+
+# Licenses and Exams
+
+- Securities Industry Essentials (SIE) Exam, Financial Industry Regulatory Authority (FINRA) — *Expected Sep 2025*
+
+---
+
+# Certifications
+
+- Advanced Cardiovascular Life Support (ACLS), American Heart Association — *Issued Sep 2022* — Credential ID: 225408189332  
+- Basic Life Support for Healthcare Providers (BLS), American Heart Association — *Issued Jun 2022* — Credential ID: 225415630202  
+- Human Subjects Research, CITI — *Issued Nov 2022* — Credential ID: 50411525  
+- Social and Behavioral Research, CITI — *Issued Mar 2020* — Credential ID: 33581061  
+- Community Engaged Research, CITI — *Issued Mar 2020* — Credential ID: 33581062  
+- Responsible Conduct of Research, CITI — *Issued Mar 2020* — Credential ID: 33581057
+
+---
+
+# Leadership
+
+- **Academic:** Biostatistics Department Liaison; Academic Affairs Council; Council on Education for Public Health; Dean Search Committee  
+- **Professional:** American Statistical Association; American Public Health Association; Council of State and Territorial Epidemiologists  
+- **Civic:** Riverside Park Conservancy; Billion Oyster Project; Fathers Matter ATL; Boy Scouts of America
+
+---
+
+# PDF Download
+
+```{=html}
+<style>
+  .pdf-card { margin-bottom: 1.25rem; }
+  .pdf-frame { width: 100%; height: 520px; border: 1px solid #e5e5e5; border-radius: 8px; }
+  @media (max-width: 767px) { .pdf-frame { height: 420px; } }
+</style>
+
+<div class="row">
+
+  <div class="col-sm-6">
+    <div class="pdf-card">
+      <h3>Resume</h3>
+      <p>My resume focuses on my statisticial and quantitative work.</p>
+
+      <object class="pdf-frame"
+              data="./resources/20250812_coldiron_resume.pdf#view=FitH"
+              type="application/pdf">
+        <!-- Fallback for browsers that block inline PDF -->
+        <p>Your browser can’t display PDFs inline. 
+           <a href="files/left.pdf">Download the PDF</a>.</p>
+      </object>
+      
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="pdf-card">
+      <h3>Curriculum Vitae</h3>
+      <p>My CV covers my entire career in detail.</p>
+
+      <object class="pdf-frame"
+              data="./resources/20250225_cv_coldiron.pdf#view=FitH"
+              type="application/pdf">
+        <!-- Fallback for browsers that block inline PDF -->
+        <p>Your browser can’t display PDFs inline. 
+           <a href="files/right.pdf">Download the PDF</a>.</p>
+      </object>
+      
+    </div>
+  </div>
+</div>
+
+```
+

@@ -1,6 +1,5 @@
 ---
 title: "Jake William Coldiron"
-author: "Statistician | Researcher | Director"
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
@@ -43,7 +42,7 @@ Beyond research, I spend my time outdoors and playing sports. I spend most of my
 
 ::: {.column width="30%"}
 ```{=html}
-<img src="images/jakewilliamcoldiron.github.io_images_headshot_02.jpg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
+<img src="images/headshot.jpg", style="border: 5px solid #333355;float:right; margin-bottom: 10px;">
 
 <div style="border-radius: 25px;background: #33335590;padding: 10px;">
 <br/>
@@ -52,7 +51,7 @@ word-break:break-all;"> Contact Information</h4>
 <p style="size:8px;word-break:break-all;">
 Jake William Coldiron
 <br/>
-Email: <a href="mailto:jwc2177@cumc.columbia.edu">jwc2177@cumc.columbia.edu</a></p>
+Email: <a href="mailto:jwc2177@caa.columbia.edu">jwc2177@caa.columbia.edu</a></p>
 </div>
 ```
 

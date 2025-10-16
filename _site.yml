@@ -3,25 +3,25 @@ output_dir: "."
 navbar:
   title: "Home"
   left:
+    - text: "Dynamic Resume"
+      href: resume.html
     - text: "Sample Work"
       href: sample_work.html  
-    - text: "Research"
-      href: research.html
-    - text: "Papers"
-      href: papers.html
+    - text: "Projects and Research"
+      href: projects_and_research.html
+    - text: "Manuscripts"
+      href: manuscripts.html
     - text: "Photo Gallery"
       href: photo_gallery.html  
   right:
-    - icon: ai-cv ai-lg
-      href: ./reasources/20250306_coldiron_cv_website.pdf
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/jakewilliamcoldiron/
     - icon: fa-github fa-lg
       href: http://github.com/jakewilliamcoldiron/
     - icon: ai-researchgate ai-lg
       href: https://www.researchgate.net/profile/Jake-Coldiron
-    - icon: fa-brands fa-linkedin
-      href: https://www.linkedin.com/in/jakewilliamcoldiron/
     - icon: fa-paper-plane fa-lg
-      href: mailto:jwc2177@cumc.columbia.edu
+      href: mailto:jwc2177@caa.columbia.edu
 
 output:
   html_document:
@@ -29,6 +29,7 @@ output:
     includes:
       after_body: footer.html
     css: styles.css
+
 
 
 
