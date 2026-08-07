@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Jake William Coldiron</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">Jake William Coldiron</a>
+    <button class="nav-toggle mono" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header wrap">
+  <span class="eyebrow">Contact</span>
+  <h1>Let's talk.</h1>
+  <p class="lede">Reach out for collaboration, questions, or anything RWE-related.</p>
+</header>
+
+<div class="contact-stack">
+  <a class="ccard" href="mailto:jakewcoldiron@gmail.com">
+    <span class="ccard-k">Email</span>
+    <span class="ccard-v">jakewcoldiron<wbr>@gmail.com</span>
+    <span class="ccard-go">Send a message →</span>
+  </a>
+  <a class="ccard" href="https://github.com/jakewilliamcoldiron" target="_blank" rel="noopener">
+    <span class="ccard-k">GitHub</span>
+    <span class="ccard-v">https://github.com/jakewilliamcoldiron</span>
+    <span class="ccard-go">View repositories →</span>
+  </a>
+  <a class="ccard" href="https://www.linkedin.com/in/jakewilliamcoldiron/" target="_blank" rel="noopener">
+    <span class="ccard-k">LinkedIn</span>
+    <span class="ccard-v">https://www.linkedin.com/in/jakewilliamcoldiron/</span>
+    <span class="ccard-go">Connect →</span>
+  </a>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year"></span> Jake William Coldiron</span>
+    <span><a href="mailto:jakewcoldiron@gmail.com">Email</a> · <a href="https://github.com/jakewilliamcoldiron">GitHub</a> · <a href="https://www.linkedin.com/in/jakewilliamcoldiron/">LinkedIn</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

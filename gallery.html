@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Jake William Coldiron</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">Jake William Coldiron</a>
+    <button class="nav-toggle mono" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header wrap">
+  <span class="eyebrow">Gallery</span>
+  <h1>Photos.</h1>
+  <p class="lede">Conferences, posters, whiteboards, the occasional non-work photo — whatever fits.</p>
+</header>
+
+<section class="wrap">
+  <span class="placeholder-note">Drop your images into /images and swap each slot below for an &lt;img&gt; tag</span>
+  <div class="gallery-grid">
+    <div class="gallery-slot">Add photo<br>images/photo-1.jpg</div>
+    <div class="gallery-slot">Add photo<br>images/photo-2.jpg</div>
+    <div class="gallery-slot">Add photo<br>images/photo-3.jpg</div>
+    <div class="gallery-slot">Add photo<br>images/photo-4.jpg</div>
+    <div class="gallery-slot">Add photo<br>images/photo-5.jpg</div>
+    <div class="gallery-slot">Add photo<br>images/photo-6.jpg</div>
+  </div>
+  <p class="mono" style="font-size:0.8rem; color:var(--ink-faint); margin-top:1.5rem;">
+    &lt;!-- Example once you have an image: --&gt;<br>
+    &lt;div class="gallery-slot"&gt;&lt;img src="images/photo-1.jpg" alt="Describe the photo"&gt;&lt;/div&gt;
+  </p>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year"></span> Jake William Coldiron</span>
+    <span><a href="mailto:jakewcoldiron@gmail.com">Email</a> · <a href="https://github.com/jakewilliamcoldiron">GitHub</a> · <a href="https://www.linkedin.com/in/jakewilliamcoldiron/">LinkedIn</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

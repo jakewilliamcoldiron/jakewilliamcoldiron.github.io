@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Jake William Coldiron</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">Jake William Coldiron</a>
+    <button class="nav-toggle mono" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="projects.html" aria-current="page">Projects</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header wrap">
+  <span class="eyebrow">Projects</span>
+  <h1>Personal &amp; open-source work.</h1>
+  <p class="lede">Packages, tools, and side projects outside of day-to-day RWE work.</p>
+</header>
+
+<figure class="polar-figure">
+  <svg viewBox="88 32 384 224" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="polTitle polDesc">
+    <title id="polTitle">Polar plot, half moon</title>
+    <desc id="polDesc">Half-moon polar plot showing agreement between two measurement methods, with angular bias, radial limits of agreement, and boundary lines.</desc>
+
+    <path class="polar-arc-grid" d="M237.5,230 A42.5,42.5 0 0 1 322.5,230" />
+    <path class="polar-arc-grid" d="M195,230 A85,85 0 0 1 365,230" />
+    <path class="polar-arc-grid" d="M152.5,230 A127.5,127.5 0 0 1 407.5,230" />
+    <path class="polar-arc-grid" d="M110,230 A170,170 0 0 1 450,230" />
+
+    <line class="polar-spoke" x1="280" y1="230" x2="280" y2="60" />
+    <line class="polar-spoke" x1="280" y1="230" x2="323.99" y2="65.8" />
+    <line class="polar-spoke" x1="280" y1="230" x2="365" y2="82.8" />
+    <line class="polar-spoke" x1="280" y1="230" x2="400.2" y2="109.8" />
+    <line class="polar-spoke" x1="280" y1="230" x2="427.2" y2="145" />
+    <line class="polar-spoke" x1="280" y1="230" x2="444.2" y2="186" />
+    <line class="polar-spoke" x1="280" y1="230" x2="236.01" y2="65.8" />
+    <line class="polar-spoke" x1="280" y1="230" x2="195" y2="82.8" />
+    <line class="polar-spoke" x1="280" y1="230" x2="159.8" y2="109.8" />
+    <line class="polar-spoke" x1="280" y1="230" x2="132.8" y2="145" />
+    <line class="polar-spoke" x1="280" y1="230" x2="115.8" y2="186" />
+
+    <line class="polar-axis" x1="110" y1="230" x2="450" y2="230" />
+    <line class="polar-tick" x1="280" y1="230" x2="280" y2="236" />
+    <line class="polar-tick" x1="322.5" y1="230" x2="322.5" y2="236" />
+    <line class="polar-tick" x1="365" y1="230" x2="365" y2="236" />
+    <line class="polar-tick" x1="407.5" y1="230" x2="407.5" y2="236" />
+    <line class="polar-tick" x1="450" y1="230" x2="450" y2="236" />
+    <text class="polar-mag" x="280" y="248" text-anchor="middle">0.0</text>
+    <text class="polar-mag" x="322.5" y="248" text-anchor="middle">0.5</text>
+    <text class="polar-mag" x="365" y="248" text-anchor="middle">1.0</text>
+    <text class="polar-mag" x="407.5" y="248" text-anchor="middle">1.5</text>
+    <text class="polar-mag" x="450" y="248" text-anchor="middle">2.0</text>
+
+    <text class="polar-deg" x="280" y="43" text-anchor="middle">0</text>
+    <text class="polar-deg" x="327.9" y="48" text-anchor="middle">15</text>
+    <text class="polar-deg" x="372.5" y="66" text-anchor="middle">30</text>
+    <text class="polar-deg" x="412.8" y="96" text-anchor="start">45</text>
+    <text class="polar-deg" x="442.2" y="134" text-anchor="start">60</text>
+    <text class="polar-deg" x="458.7" y="180" text-anchor="start">75</text>
+    <text class="polar-deg" x="462" y="226" text-anchor="start">90</text>
+    <text class="polar-deg" x="232.1" y="48" text-anchor="middle">-15</text>
+    <text class="polar-deg" x="187.5" y="66" text-anchor="middle">-30</text>
+    <text class="polar-deg" x="147.2" y="96" text-anchor="end">-45</text>
+    <text class="polar-deg" x="117.8" y="134" text-anchor="end">-60</text>
+    <text class="polar-deg" x="101.3" y="180" text-anchor="end">-75</text>
+    <text class="polar-deg" x="98" y="226" text-anchor="end">-90</text>
+
+    <path class="polar-bound" d="M280,230 L353.9,88.1" style="animation-delay:1.35s" />
+    <path class="polar-bound" d="M280,230 L231.9,77.4" style="animation-delay:1.35s" />
+
+    <path class="polar-bias" pathLength="100" d="M280,230 L294.8,60.6" style="animation-delay:0.15s" />
+    <path class="polar-limit" pathLength="100" d="M280,230 L387.0,97.9" style="animation-delay:0.40s" />
+    <path class="polar-limit" pathLength="100" d="M280,230 L151.7,118.5" style="animation-delay:0.55s" />
+
+    <circle class="polar-pt" cx="280.5" cy="215.0" r="3.2" style="animation-delay:0.70s"/>
+    <circle class="polar-pt" cx="276.5" cy="205.2" r="3.2" style="animation-delay:0.73s"/>
+    <circle class="polar-pt" cx="286.2" cy="200.7" r="3.2" style="animation-delay:0.76s"/>
+    <circle class="polar-pt" cx="272.5" cy="209.3" r="3.2" style="animation-delay:0.79s"/>
+    <circle class="polar-pt" cx="283.9" cy="185.2" r="3.2" style="animation-delay:0.82s"/>
+    <circle class="polar-pt" cx="296.9" cy="193.7" r="3.2" style="animation-delay:0.85s"/>
+    <circle class="polar-pt" cx="267.1" cy="181.7" r="3.2" style="animation-delay:0.88s"/>
+    <circle class="polar-pt" cx="298.5" cy="172.9" r="3.2" style="animation-delay:0.91s"/>
+    <circle class="polar-pt" cx="257.5" cy="191.0" r="3.2" style="animation-delay:0.94s"/>
+    <circle class="polar-pt" cx="290.4" cy="155.7" r="3.2" style="animation-delay:0.97s"/>
+    <circle class="polar-pt" cx="311.5" cy="184.9" r="3.2" style="animation-delay:1.00s"/>
+    <circle class="polar-pt" cx="253.8" cy="165.1" r="3.2" style="animation-delay:1.03s"/>
+    <circle class="polar-pt" cx="303.0" cy="137.8" r="3.2" style="animation-delay:1.06s"/>
+    <circle class="polar-pt" cx="241.4" cy="184.0" r="3.2" style="animation-delay:1.09s"/>
+    <circle class="polar-pt" cx="319.9" cy="154.9" r="3.2" style="animation-delay:1.12s"/>
+    <circle class="polar-pt" cx="280.0" cy="120.0" r="3.2" style="animation-delay:1.15s"/>
+    <circle class="polar-pt" cx="262.6" cy="131.5" r="3.2" style="animation-delay:1.18s"/>
+    <circle class="polar-pt" cx="321.0" cy="117.2" r="3.2" style="animation-delay:1.21s"/>
+    <circle class="polar-pt" cx="231.0" cy="154.5" r="3.2" style="animation-delay:1.24s"/>
+    <circle class="polar-pt" cx="330.2" cy="174.3" r="3.2" style="animation-delay:1.27s"/>
+    <circle class="polar-pt" cx="304.3" cy="92.1" r="3.2" style="animation-delay:1.30s"/>
+    <circle class="polar-pt" cx="227.2" cy="116.7" r="3.2" style="animation-delay:1.33s"/>
+    <circle class="polar-pt" cx="332.5" cy="139.1" r="3.2" style="animation-delay:1.36s"/>
+    <circle class="polar-pt" cx="266.5" cy="75.6" r="3.2" style="animation-delay:1.39s"/>
+  </svg>
+  <div class="caption">
+    Polar plot — half moon · illustrative<br>
+    Angular bias +5° · radial limits −49° to +39°<br>
+    Boundary limits −17.5° to +27.5°
+  </div>
+</figure>
+
+<section class="wrap">
+    <div class="tick-divider">
+    <span class="stub"></span>
+    <span class="label">Projects
+    </span>
+    <span class="rule"></span>
+  </div>
+  <div class="grid">
+    <div class="card">
+      <div class="meta">R Package</div>
+      <h3>Project name one</h3>
+      <p>One or two sentences describing what the project does and why you built it.</p>
+      <div class="tags">
+        <span class="tag">R</span>
+        <span class="tag">Statistics</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="meta">Open Source</div>
+      <h3>Project name two</h3>
+      <p>One or two sentences describing what the project does and why you built it.</p>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">Data Viz</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="meta">Personal</div>
+      <h3>Project name three</h3>
+      <p>One or two sentences describing what the project does and why you built it.</p>
+      <div class="tags">
+        <span class="tag">SQL</span>
+        <span class="tag">Automation</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year"></span> Jake William Coldiron</span>
+    <span><a href="mailto:jakewcoldiron@gmail.com">Email</a> · <a href="https://github.com/jakewilliamcoldiron">GitHub</a> · <a href="https://www.linkedin.com/in/jakewilliamcoldiron/">LinkedIn</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
