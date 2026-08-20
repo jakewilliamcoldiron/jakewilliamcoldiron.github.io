@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contracting — Jake William Coldiron</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">Jake William Coldiron</a>
+    <button class="nav-toggle mono" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contracting.html">Contracting</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<header class="page-header wrap">
+  <span class="eyebrow">Contracting</span>
+  <h1>Independent statistical consulting for RWE and observational research.</h1>
+  <p class="lede">Placeholder lede — one sentence on the kind of engagements you take on and who they're for.</p>
+</header>
+
+<section class="wrap">
+  <span class="placeholder-note">Placeholder content — replace with your actual services and terms</span>
+
+  <div class="bio-block">
+    <p>
+      I take on select independent consulting work in real-world evidence, causal inference,
+      and statistical programming — study design, analysis pipelines, and methods review for
+      teams that need senior RWE expertise without a full-time hire.
+    </p>
+    <p>
+      Add a paragraph here on the kinds of engagements you're open to (short advisory work,
+      full analysis builds, methods audits, etc.) and how you typically work with clients.
+    </p>
+  </div>
+</section>
+
+
+<section class="wrap">
+  <h2>How it works</h2>
+
+  <div class="timeline">
+    <svg class="timeline-track" viewBox="0 0 100 4" preserveAspectRatio="none" aria-hidden="true">
+      <line x1="0" y1="2" x2="100" y2="2" stroke="var(--line, #D8DED9)" stroke-width="1"/>
+      <line id="timeline-progress" x1="0" y1="2" x2="100" y2="2" stroke="var(--sage-dark, #3F6659)" stroke-width="1.5"/>
+    </svg>
+
+    <div class="timeline-steps">
+      <div class="timeline-step">
+        <span class="timeline-dot"></span>
+        <span class="step-num">01</span>
+        <span class="step-title">Reach out</span>
+        <p>Share what you're working on and roughly what kind of help you need — a quick call or an email both work.</p>
+      </div>
+      <div class="timeline-step">
+        <span class="timeline-dot"></span>
+        <span class="step-num">02</span>
+        <span class="step-title">Scope the engagement</span>
+        <p>We define deliverables, timeline, and format — one-off review, defined project, or ongoing advisory.</p>
+      </div>
+      <div class="timeline-step">
+        <span class="timeline-dot"></span>
+        <span class="step-num">03</span>
+        <span class="step-title">Do the work</span>
+        <p>Regular check-ins, transparent progress, and code/analysis handed off in a form your team can maintain.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Areas of engagement</h2>
+  <ul class="focus-list">
+    <li>Study design &amp; protocol development</li>
+    <li>Causal inference methodology</li>
+    <li>Claims / EHR / registry data pipelines</li>
+    <li>Statistical programming &amp; reproducible workflows</li>
+    <li>HEOR &amp; regulatory-facing analysis review</li>
+  </ul>
+</section>
+
+<section class="wrap">
+  <h2>Get in touch</h2>
+  <p>For scope, availability, or rates, reach out via the <a href="contact.html">contact page</a>.</p>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="year"></span> Jake William Coldiron</span>
+    <span><a href="contact.html">Email</a> · <a href="https://github.com/jakewilliamcoldiron">GitHub</a> · <a href="https://linkedin.com/in/jakewilliamcoldiron">LinkedIn</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+<!-- For page animation, required plus CSS -->
+
+<script>
+  const timelineEl = document.querySelector('.timeline');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  if (timelineEl) observer.observe(timelineEl);
+</script>
+
