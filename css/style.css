@@ -1095,3 +1095,125 @@ a:focus-visible, button:focus-visible {
   outline: 2px solid var(--sage-dark, #3F6659);
   outline-offset: 3px;
 }
+
+.gallery-rail {
+  border-left: 2px solid currentColor;
+  padding-left: 0.75rem;
+  margin: 2.5rem 0 1.25rem;
+}
+.gallery-rail:first-of-type {
+  margin-top: 1.5rem;
+}
+.gallery-rail .rail-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.gallery-rail .rail-note {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.15rem 0 0;
+  max-width: 46ch;
+}
+
+.pub-cite-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn-cite {
+  padding: 0.35rem 0.85rem;
+  font-size: 0.8rem;
+  border: 1px solid currentColor;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.btn-cite:hover {
+  background: currentColor;
+}
+
+.btn-cite.active {
+  background: currentColor;
+}
+
+.pub-links {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.pub-links a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.pub-cite-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-cite {
+  padding: 0.35rem 0.85rem;
+  font-size: 0.8rem;
+  border: 1px solid currentColor;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.btn-cite:hover {
+  background: currentColor;
+}
+
+.btn-cite.active {
+  background: currentColor;
+}
+
+.pub-panel {
+  margin-top: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-left: 2px solid currentColor;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.pub-import-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.pub-import-panel a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.pub-panel[hidden] {
+  display: none;
+}
+
+.btn-cite.active {
+  background: currentColor;
+  color: var(--bg, #F4F1EA);
+}
+
+.btn-cite:hover {
+  background: currentColor;
+  color: var(--bg, #F4F1EA);
+}
+
+.btn-cite.active {
+  background: var(--ink);
+  color: var(--bg);
+}

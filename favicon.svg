@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#F4F1EA"/>
+  <polygon points="32,8 53,20 53,44 32,56 11,44 11,20" fill="none" stroke="#5F7A61" stroke-width="3"/>
+  <text x="32" y="37" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" fill="#5F7A61" text-anchor="middle">JWC</text>
+</svg>

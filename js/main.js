@@ -14,3 +14,23 @@ document.querySelectorAll('.flip-card').forEach(card => {
     card.classList.toggle('flipped');
   });
 });
+
+document.querySelectorAll('.pub-item').forEach(item => {
+  const buttons = item.querySelectorAll('.btn-cite');
+  const panels = item.querySelectorAll('.pub-panel');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = btn.dataset.panel;
+      const isActive = btn.classList.contains('active');
+
+      buttons.forEach(b => b.classList.remove('active'));
+      panels.forEach(p => p.hidden = true);
+
+      if (!isActive) {
+        btn.classList.add('active');
+        item.querySelector(`.pub-panel[data-panel="${target}"]`).hidden = false;
+      }
+    });
+  });
+});
